@@ -1,6 +1,6 @@
 # prometheus
-dnf -y install tar mariadb-server php-fpm
-dnf -y install openresty-zlib-1.2.13-1.el9.x86_64.rpm openresty-openssl111-1.1.1n-1.el9.x86_64.rpm openresty-pcre-8.45-1.el9.x86_64.rpm openresty-1.21.4.2-1.el9.x86_64.rpm openresty-opm-1.21.4.2-1.el9.noarch.rpm openresty-doc-1.21.4.2-1.el9.noarch.rpm openresty-resty-1.21.4.2-1.el9.noarch.rpm
+# dnf -y install tar mariadb-server php-fpm
+# dnf -y install openresty-zlib-1.2.13-1.el9.x86_64.rpm openresty-openssl111-1.1.1n-1.el9.x86_64.rpm openresty-pcre-8.45-1.el9.x86_64.rpm openresty-1.21.4.2-1.el9.x86_64.rpm openresty-opm-1.21.4.2-1.el9.noarch.rpm openresty-doc-1.21.4.2-1.el9.noarch.rpm openresty-resty-1.21.4.2-1.el9.noarch.rpm
 systemctl enable openresty --now
 systemctl enable mariadb.service --now
 systemctl enable php-fpm --now
